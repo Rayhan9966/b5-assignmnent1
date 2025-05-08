@@ -1,4 +1,4 @@
-
+NB:open folder bfa1 -->then src--> problem solve is here index.ts
 # rayhan-Apollo-Level2-Web-Dev-B5-Assignment-1
 
 Blog 1:Provide an example of using union and intersection types in TypeScript.
