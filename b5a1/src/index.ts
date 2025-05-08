@@ -48,7 +48,7 @@ console.log (concatenateArrays([1, 2], [3, 4], [5]));
 
 
 function Vehicle(this: any, make: any, year: any) {
-    // Private variables via closure
+   
     var _make = make;
     var _year = year;
   
@@ -58,10 +58,10 @@ function Vehicle(this: any, make: any, year: any) {
   }
   
   function Car(this: any, make: string, year: number, model: string) {
-    // Inherit from Vehicle
+   
     Vehicle.call(this, make, year);
   
-    // Private variable for model
+    
     var _model = model;
   
     this.getModel = function() {
@@ -80,9 +80,9 @@ function Vehicle(this: any, make: any, year: any) {
 
   function processValue(value: string | number): number {
     if (typeof value === "string") {
-        return value.length;  // Return length for strings
+        return value.length; 
     } else {
-        return value * 2;     // Return doubled value for numbers
+        return value * 2;    
     }
 }
 
