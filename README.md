@@ -2,10 +2,18 @@ NB:open folder b5a1 -->then src--> problem solve is here index.ts
 # rayhan-Apollo-Level2-Web-Dev-B5-Assignment-1
 
 Blog 1:Provide an example of using union and intersection types in TypeScript.
+
+
+
 **Union types are like a multiple-choice question - the value can be any one of the given types (but must be at least one of them).
+
+
+
 Example:
 => Think of it like: A school ID that can be either a number or a barcode string.
-// A student ID can be  a number OR a string
+
+
+** A student ID can be  a number OR a string
 type StudentID = number | string;
 
 function printID(id: StudentID) {
@@ -20,6 +28,9 @@ printID(true);  // Error - only numbers/strings allowed
 
 ## Intersection types are like a checklist - the value must have everything from all the types combined together.
 Example :
+
+
+
 =>Think of it like: Your school report card that must have both your personal details AND your exam results.
 interface PersonalInfo {
   name: string;
